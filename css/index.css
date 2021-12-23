@@ -756,6 +756,369 @@ top: 0px;
 
 border-radius: 8px 8px 0px 0px;
 }
+.off-sale-10{
+    position: absolute;
+    width: 588px;
+    height: 223px;
+    left: 360px;
+    top: 1518px;
+    
+    border-radius: 8px;
+}
+.off-sale-20{
+    position: absolute;
+    width: 588px;
+    height: 223px;
+    left: 972px;
+    top: 1518px;
+    
+    border-radius: 8px;
+}
+#mon-khai-vi{
+    position: absolute;
+width: 1200px;
+height: 428px;
+left: 360px;
+top: 1773px;
+
+background: #FFFFFF;
+/* Border */
+
+border: 1px solid #DEDEDE;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.title-ngu-vi{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 214px;
+height: 42px;
+left: 392px;
+top: 1797px;
+}
+.logo-ngu-vi{
+    position: static;
+width: 36px;
+height: 36px;
+left: 0px;
+top: 3px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 12px;
+}
+.title-text{
+    position: static;
+width: 166px;
+height: 42px;
+left: 48px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 150%;
+/* identical to box height, or 42px */
+
+text-transform: uppercase;
+
+/* Title */
+
+color: #111111;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 12px;
+display: inline;
+}
+.khai-vi-detail{
+    position: static;
+    width: 92px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    margin-left: 700px;
+    
+    /* Main-Gold */
+    
+    color: #CDA922;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    display: inline;
+}
+#mon-khai-vi.khai-vi-frame{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 1152px;
+height: 298px;
+left: 384px;
+top: 1879px;
+}
+#khai-vi-3-mon{
+    position: static;
+width: 218px;
+height: 298px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+}
+#khai-vi-3-mon.image{
+    position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 104px;
+
+
+border-radius: 8px 8px 0px 0px;
+}
+.text{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 108px;
+left: 34px;
+right: 12px;
+top: 250px;
+}
+#heo-quay-1{
+    position: absolute;
+    width: 218px;
+    height: 298px;
+    left: 234px;
+    top: 104px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+#heo-quay-1.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    height: 81px;
+    left: 12px;
+    right: 12px;
+    top: 150px;
+}
+.heo-image{
+    position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 8px 8px 0px 0px;
+}
+#ba-mon{
+    position: absolute;
+    width: 218px;
+    height: 298px;
+    left: 468px;
+    top: 104px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+#ba-mon.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    height: 81px;
+    left: 12px;
+    right: 12px;
+    top: 150px;
+}
+.ba-mon-image{
+    position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 8px 8px 0px 0px;
+}
+#goi-tai-heo{
+    position: absolute;
+    width: 217px;
+    height: 298px;
+    left: 702px;
+    top: 104px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+#goi-tai-heo.text{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-right: 20px;
+
+position: absolute;
+height: 106px;
+left: 12px;
+right: 12px;
+top: 150px;
+}
+.goi-tai-heo-image{
+    position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 8px 8px 0px 0px;
+}
+#goi-cha-gio{
+    position: absolute;
+    width: 217px;
+    height: 298px;
+    left: 935px;
+    top: 104px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+#goi-cha-gio.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 10px;
+    
+    position: absolute;
+    height: 81px;
+    left: 12px;
+    right: 12px;
+    top: 150px;
+}
+.goi-cha-gio-image{
+    position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 8px 8px 0px 0px;
+}
+#mon-goi{
+    position: absolute;
+width: 1200px;
+height: 428px;
+left: 360px;
+top: 2233px;
+
+background: #FFFFFF;
+/* Border */
+
+border: 1px solid #DEDEDE;
+box-sizing: border-box;
+border-radius: 8px;
+}
+.goi-detail{
+    position: static;
+width: 92px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+margin-left: 750px;
+
+/* Main-Gold */
+
+color: #CDA922;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+display: inline-block;
+}
+#mon-goi.cac-moi-goi{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 1152px;
+height: 298px;
+left: 384px;
+top: 2339px;
+}
 #content{
 }
 #footer{
