@@ -1,182 +1,148 @@
 #main{
-position: relative;
-width: 1920px;
-height: 4049px;
-
-background: #FFFFFF;
+    position: relative;
+    width: 1920px;
+    height: 4049px;
+    background: #FFFFFF;
 }
-
 #header{
     position: absolute;
-width: 1920px;
-height: 88px;
-left: 0px;
-top: 0px;
+    width: 1920px;
+    height: 88px;
+    left: 0px;
+    top: 0px;
 }
-
 #logo-hpfood{
     position: absolute;
-width: 130px;
-height: 52px;
-left: 80px;
-top: calc(50% - 58px/2);
+    width: 130px;
+    height: 52px;
+    left: 80px;
+    top: calc(50% - 58px/2);
 }
-
 #nav{
     display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-
-position: absolute;
-width: 662px;
-height: 27px;
-left: 274px;
-top: calc(50% - 27px/2);
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 662px;
+    height: 27px;
+    left: 274px;
+    top: calc(50% - 27px/2);
 }
-
 li{
     display: inline;
 }
-
 #home{
-/* Trang chủ */
-position: static;
-width: 100px;
-height: 27px;
-left: 0px;
-top: 0px;
-
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 150%;
-
-/* identical to box height, or 27px */
-text-transform: uppercase;
-
-/* Main-Gold */
-color: #CDA922;
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 40px;
+   /* Trang chủ */
+    position: static;
+    width: 100px;
+    height: 27px;
+    left: 0px;
+    top: 0px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 150%;
+   /* identical to box height, or 27px */
+    text-transform: uppercase;
+   /* Main-Gold */
+    color: #CDA922;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 40px;
 }
-
 #mon-ngon{
-    /* Món ngon */
-position: static;
-width: 97px;
-height: 27px;
-left: 0px;
-top: 0px;
-
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 150%;
-
-/* identical to box height, or 27px */
-text-transform: uppercase;
-
-/* Title */
-color: #111111;
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 4px;
+   /* Món ngon */
+    position: static;
+    width: 97px;
+    height: 27px;
+    left: 0px;
+    top: 0px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+   /* identical to box height, or 27px */
+    text-transform: uppercase;
+   /* Title */
+    color: #111111;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
 }
-
 #dich-vu{
-/* Dịch vụ tiệc */
-position: static;
-width: 113px;
-height: 27px;
-left: 0px;
-top: 0px;
-
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 150%;
-
-/* identical to box height, or 27px */
-text-transform: uppercase;
-
-/* Title */
-color: #111111;
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 40px;
+   /* Dịch vụ tiệc */
+    position: static;
+    width: 113px;
+    height: 27px;
+    left: 0px;
+    top: 0px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 150%;
+   /* identical to box height, or 27px */
+    text-transform: uppercase;
+   /* Title */
+    color: #111111;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 40px;
 }
-
 #tin-tuc{
-/* Tin tức */
-position: static;
-width: 68px;
-height: 27px;
-left: 0px;
-top: 0px;
-
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 150%;
-
-/* identical to box height, or 27px */
-text-transform: uppercase;
-
-/* Title */
-color: #111111;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 4px;
+   /* Tin tức */
+    position: static;
+    width: 68px;
+    height: 27px;
+    left: 0px;
+    top: 0px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 150%;
+   /* identical to box height, or 27px */
+    text-transform: uppercase;
+   /* Title */
+    color: #111111;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
 }
-
 #lien-he{
-/* Liên hệ */
-position: static;
-width: 64px;
-height: 27px;
-left: 598px;
-top: 0px;
-
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 150%;
-
-/* identical to box height, or 27px */
-text-transform: uppercase;
-
-/* Title */
-color: #111111;
-
-/* Inside Auto Layout */
-flex: none;
-order: 4;
-flex-grow: 0;
-margin: 0px 40px;
+   /* Liên hệ */
+    position: static;
+    width: 64px;
+    height: 27px;
+    left: 598px;
+    top: 0px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+   /* identical to box height, or 27px */
+    text-transform: uppercase;
+   /* Title */
+    color: #111111;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 40px;
 }
-
 #slider{
-    
 }
 .huong-pho{
     position: absolute;
@@ -184,317 +150,374 @@ margin: 0px 40px;
     height: 700px;
     left: 0px;
     top: 88px;
-    
     background: rgba(0, 0, 0, 0.7);
     mix-blend-mode: multiply;
 }
 .text1{
-    /* HUONG PHO GROUP */
-position: absolute;
-width: 596px;
-height: 96px;
-left: 662px;
-top: 248px;
-
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: 800;
-font-size: 58px;
-line-height: 150%;
-/* identical to box height, or 96px */
-text-align: center;
-
-color: #DEB722;
-
-border: 0px solid #EDD173;
-text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25), 0px 0px 12px #7C6100;
+   /* HUONG PHO GROUP */
+    position: absolute;
+    width: 596px;
+    height: 96px;
+    left: 662px;
+    top: 248px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 150%;
+   /* identical to box height, or 96px */
+    text-align: center;
+    color: #DEB722;
+    border: 0px solid #EDD173;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25), 0px 0px 12px #7C6100;
 }
 .text2{
-    /* Kết nối yêu thương đến mọi nhà */
-position: absolute;
-width: 752px;
-height: 144px;
-left: 571px;
-top: 292px;
-
-font-family: 'Great Vibes', cursive;
-font-style: normal;
-font-weight: bold;
-font-size: 70px;
-line-height: 150px;
-
-/* identical to box height, or 144px */
-text-align: center;
-letter-spacing: 0.01em;
-
-color: #FFF9BE;
-
-text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+   /* Kết nối yêu thương đến mọi nhà */
+    position: absolute;
+    width: 752px;
+    height: 144px;
+    left: 571px;
+    top: 292px;
+    font-family: 'Great Vibes', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 150px;
+   /* identical to box height, or 144px */
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFF9BE;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
 }
 .huong-pho2{
-    /* huong-pho0537-1 2 */
-position: absolute;
-width: 1920px;
-height: 700px;
-left: 0px;
-top: 88px;
-
-background: rgba(0, 0, 0, 0.7);
-mix-blend-mode: multiply;
-opacity: 0.4;
+   /* huong-pho0537-1 2 */
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 88px;
+    background: rgba(0, 0, 0, 0.7);
+    mix-blend-mode: multiply;
+    opacity: 0.4;
 }
-.mon-moi{
-    /* Rectangle 3 */
-position: absolute;
-width: 1200px;
-height: 442px;
-left: 360px;
-top: 584px;
-
-/* Main-Gold */
-
-background: #CDA922;
-border-radius: 8px;
+#mon-moi{
+   /* Rectangle 3 */
+    position: absolute;
+    width: 1200px;
+    height: 442px;
+    left: 360px;
+    top: 584px;
+   /* Main-Gold */
+    background: #CDA922;
+    border-radius: 8px;
+}
+#mon-moi.list-mon-ngon{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 1152px;
+    height: 312px;
+    left: 384px;
+    top: 690px;
 }
 .new-1{
-    /* new 1 */
-position: static;
-width: 36px;
-height: 36px;
-left: 0px;
-top: 3px;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 12px;
+   /* new 1 */
+    position: static;
+    width: 36px;
+    height: 36px;
+    left: 0px;
+    top: 3px;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 12px;
 }
 .text3{
-    /* Món mới */
-position: static;
-width: 122px;
-height: 42px;
-left: 48px;
-top: 0px;
-
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 150%;
-
-/* identical to box height, or 42px */
-text-transform: uppercase;
-
-/* White */
-color: #FFFFFF;
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 0px 12px;
-display: inline;
+   /* Món mới */
+    position: static;
+    width: 122px;
+    height: 42px;
+    left: 48px;
+    top: 0px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 150%;
+   /* identical to box height, or 42px */
+    text-transform: uppercase;
+   /* White */
+    color: #FFFFFF;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 12px;
+    display: inline;
 }
-
 #chi-tiet{
-/* Frame 4 */
-/* Auto Layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-
-position: absolute;
-width: 124px;
-height: 24px;
-right: 392px;
-top: 622px;
+   /* Frame 4 */
+   /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 124px;
+    height: 24px;
+    right: 392px;
+    top: 622px;
 }
 #xem-chi-tiet{
-/* Xem chi tiết */
-
-position: static;
-width: 92px;
-height: 24px;
-left: 0px;
-top: 0px;
-
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 150%;
-/* identical to box height, or 24px */
-text-align: right;
-
-/* White */
-color: #FFFFFF;
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
-margin-left: 750px;
+   /* Xem chi tiết */
+    position: static;
+    width: 92px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+   /* identical to box height, or 24px */
+    text-align: right;
+   /* White */
+    color: #FFFFFF;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 750px;
 }
-.bo-luc-lac{
+#bo-luc-lac{
     position: static;
     width: 276px;
     height: 312px;
     left: 0px;
     top: 0px;
-
-    /* Inside Auto Layout */
+   /* Inside Auto Layout */
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 16px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
-border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
-.bo-luc-lac.bo-image{
+#bo-luc-lac.bo-image{
     position: absolute;
-height: 184px;
-left: 0%;
-right: 0%;
-top: 105px;
-
-border-radius: 8px 8px 0px 0px;
+    height: 184px;
+    left: 0%;
+    right: 0%;
+    top: 105px;
+    border-radius: 8px 8px 0px 0px;
 }
-
-#frame{
+#bo-luc-lac.frame{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    
     position: absolute;
     height: 106px;
     left: 0px;
     right: 12px;
     top: 300px;
-    }
-
-#text4{
-    position: static;
-width: 252px;
-left: calc(50% - 252px/2);
-top: 0%;
-bottom: 52.83%;
-
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 140%;
-/* or 25px */
-
-/* Title */
-color: #111111;
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 8px 0px;
 }
+#ca-bong{
+    position: absolute;
+    width: 276px;
+    height: 312px;
+    left: 292px;
+    top: 105px;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.ca-bong-image{
+    position: absolute;
+    height: 184px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+#ca-chep{
+    position: absolute;
+    width: 276px;
+    height: 312px;
+    left: 584px;
+    top: 106px;
+    
+    
+    /* Inside Auto Layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 16px;
 
-#price{
-    display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-position: static;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.ca-chep-image{
+    position: absolute;
+height: 184px;
 left: 0%;
-right: 63.49%;
-top: 54.72%;
-bottom: 0%;
+right: 0%;
+top: 0px;
 
 
-/* Inside Auto Layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 8px 0px;
+border-radius: 8px 8px 0px 0px;
 }
+#cha-muc{
+    position: absolute;
+    width: 276px;
+    height: 312px;
+    left: 876px;
+    top: 106px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 16px;
 
-#price-s{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.cha-muc-image{
+    position: absolute;
+height: 184px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 8px 8px 0px 0px;
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    height: 108px;
+    left: 12px;
+    right: 12px;
+    top: 192px;
+}
+.text4{
+    position: static;
+    width: 252px;
+    left: calc(50% - 252px/2);
+    top: 0%;
+    bottom: 52.83%;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+   /* or 25px */
+   /* Title */
+    color: #111111;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    left: 0%;
+    right: 63.49%;
+    top: 54.72%;
+    bottom: 0%;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.price-s{
     position: static;
     width: 20px;
     height: 18px;
     left: 0px;
     top: 1.5px;
-    
-    
-    /* Inside Auto Layout */
-    
+   /* Inside Auto Layout */
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 7px;
 }
-#price-m{
-    position: static;
-    width: nanpx;
-    height: nanpx;
-    left: 0px;
-    top: 1.5px;
-    
-    
-    /* Inside Auto Layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 7px;
-}
-
-#price-l{
+.price-m{
     position: static;
     width: 18px;
     height: 18px;
     left: 0px;
     top: 1.5px;
-    
-    
-    /* Inside Auto Layout */
-    
+   /* Inside Auto Layout */
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 7px;
 }
-
-#text5{
+.price-l{
     position: static;
-width: 66px;
-height: 21px;
-left: 25px;
-top: 0px;
-
-font-family: Be Vietnam;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 150%;
-/* identical to box height, or 21px */
-
-
-/* Body */
-color: #333333;
+    width: 18px;
+    height: 18px;
+    left: 0px;
+    top: 1.5px;
+   /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 7px;
 }
-
+.text5{
+    position: static;
+    width: 66px;
+    height: 21px;
+    left: 25px;
+    top: 0px;
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+   /* identical to box height, or 21px */
+   /* Body */
+    color: #333333;
+}
+#favorite-food{
+    position: absolute;
+    width: 1200px;
+    height: 428px;
+    left: 360px;
+    top: 1058px;
+    background: #FFFFFF;
+   /* Main-Gold */
+    border: 2px solid #CDA922;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
 #content{
-
 }
 #footer{
-
 }
