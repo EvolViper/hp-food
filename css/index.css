@@ -1119,6 +1119,186 @@ height: 298px;
 left: 384px;
 top: 2339px;
 }
+#goi-tom{
+    position: static;
+width: 218px;
+height: 298px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+}
+#goi-tom.goi-tom-image{
+    position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 104px;
+
+border-radius: 8px 8px 0px 0px;
+}
+.text-frame{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+height: 133px;
+left: 30px;
+right: 12px;
+top: 250px;
+}
+#bao-ngu-1{
+    position: absolute;
+    width: 218px;
+    height: 298px;
+    left: 234px;
+    top: 104px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+#bao-ngu-1.text-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    height: 81px;
+    left: 12px;
+    right: 12px;
+    top: 150px;
+}
+.bao-ngu-1-image{
+    position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 8px 8px 0px 0px;
+}
+#bao-ngu-2{
+    position: absolute;
+    width: 218px;
+    height: 298px;
+    left: 468px;
+    top: 104px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+#bao-ngu-2.text-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    height: 81px;
+    left: 12px;
+    right: 12px;
+    top: 150px;
+}
+.bao-ngu-2-image{
+    position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 8px 8px 0px 0px;
+}
+#bao-ngu-3{
+    position: absolute;
+    width: 217px;
+    height: 298px;
+    left: 702px;
+    top: 104px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+#bao-ngu-3.text-frame{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-right: 20px;
+
+position: absolute;
+height: 106px;
+left: 12px;
+right: 12px;
+top: 150px;
+}
+.bao-ngu-3-image{
+    position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 8px 8px 0px 0px;
+}
+#bao-ngu-4{
+    position: absolute;
+    width: 217px;
+    height: 298px;
+    left: 935px;
+    top: 104px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+#bao-ngu-4.text-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 10px;
+    
+    position: absolute;
+    height: 81px;
+    left: 12px;
+    right: 12px;
+    top: 150px;
+}
+.bao-ngu-4-image{
+    position: absolute;
+height: 145px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+border-radius: 8px 8px 0px 0px;
+}
 #content{
 }
 #footer{
