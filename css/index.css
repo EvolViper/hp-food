@@ -1537,4 +1537,511 @@ mix-blend-mode: multiply;
 #content{
 }
 #footer{
+    position: absolute;
+width: 1920px;
+height: 606px;
+left: 0px;
+bottom: 0px;
+}
+#footer.list-video{
+    position: absolute;
+width: 1920px;
+height: 227px;
+left: 0px;
+top: 0px;
+background: #111111;
+}
+/* Cac Image */
+.buffet-image{
+    position: absolute;
+width: 221px;
+height: 140px;
+left: 360px;
+top: 24px;
+border-radius: 8px;
+
+
+}
+.tiec-nha-image{
+    position: absolute;
+width: 221px;
+height: 140px;
+left: 605px;
+top: 24px;
+
+border-radius: 8px;
+}
+.fast-food-image{
+    position: absolute;
+width: 221px;
+height: 140px;
+left: 850px;
+top: 24px;
+
+border-radius: 8px;
+}
+.wedding-image{
+    position: absolute;
+    width: 221px;
+    height: 140px;
+    left: 1095px;
+    top: 24px;
+    
+    border-radius: 8px;
+}
+.fruit-image{
+    position: absolute;
+    width: 221px;
+    height: 140px;
+    left: 1340px;
+    top: 24px;
+    
+    border-radius: 8px;
+}
+
+/* Cac Title */
+.buffet-title{
+    position: absolute;
+width: 87px;
+height: 27px;
+left: 427px;
+top: 176px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.tiec-nha-title{
+    position: absolute;
+width: 93px;
+height: 27px;
+left: 669px;
+top: 176px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.fast-food-title{
+    position: absolute;
+width: 101px;
+height: 27px;
+left: 910px;
+top: 176px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.wedding-title{
+    position: absolute;
+width: 74px;
+height: 27px;
+left: 1168px;
+top: 176px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.fruit-title{
+    position: absolute;
+width: 103px;
+height: 27px;
+left: 1399px;
+top: 176px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+/* Nut Play */
+.play-1{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 438px;
+    top: 62px;
+}
+.play-2{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 683px;
+    top: 62px;
+}.play-3{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 928px;
+    top: 62px;
+}.play-4{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 1173px;
+    top: 62px;
+}.play-5{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 1418px;
+    top: 62px;
+}
+#footer.noi-dung{
+    position: absolute;
+width: 1920px;
+height: 310px;
+left: 0px;
+top: 227px;
+
+background: #262626;
+}
+.footer-logo{
+position: absolute;
+width: 150px;
+height: 60px;
+left: 360px;
+top: 60px;
+}
+.footer-intro{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 403px;
+height: 110px;
+left: 360px;
+top: 130px;
+}
+.footer-intro-title{
+    position: static;
+    left: 0%;
+    right: 27.79%;
+    top: 0%;
+    bottom: 72.73%;
+    
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.footer-intro-text{
+    position: static;
+    width: 403px;
+    height: 72px;
+    left: 0px;
+    top: 38px;
+    
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    
+    color: rgba(255, 255, 255, 0.7);
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.footer-support{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 151px;
+    height: 171px;
+    left: 857px;
+    top: 40px;
+}
+.footer-supp-title{
+    position: static;
+    left: 0%;
+    right: 56.95%;
+    top: 0%;
+    bottom: 84.21%;
+    
+    font-family: Be Vietnam;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+.footer-supp-content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 151px;
+height: 120px;
+left: 0px;
+top: 51px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.footer-supp-content-text{
+    position: static;
+width: 151px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: rgba(255, 255, 255, 0.7);
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.footer-address{
+    position: absolute;
+    width: 491px;
+    height: 143px;
+    left: 1072px;
+    top: 40px;
+}
+.footer-address-title{
+    position: static;
+left: 0%;
+right: 73.12%;
+top: 0%;
+bottom: 81.12%;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 150%;
+/* identical to box height, or 27px */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.footer-address-content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 491px;
+height: 143px;
+top: 51px;
+
+}
+
+.footer-address-content-text{
+    position: static;
+width: 491px;
+height: 92px;
+left: 0px;
+top: 51px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.footer-address-content-icon{
+    left: 8.8%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.63%;
+
+}
+
+
+/* Form noi dung cua text */
+.footer-address-content-text-form{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+left: 50px;
+right: 0%;
+top: 30px;
+bottom: 2.1%;
+}
+.footer-address-text{
+    position: static;
+width: 308px;
+height: 21px;
+left: 0px;
+top: 0px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+
+color: rgba(255, 255, 255, 0.7);
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.footer-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 208px;
+    height: 32px;
+    left: 1064px;
+    top: 230px;
+}
+.footer-icon-content{
+    position: static;
+width: 32px;
+height: 32px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 12px;
+}
+#footer.copy-right{
+    position: absolute;
+width: 1920px;
+height: 69px;
+left: 0px;
+top: 537px;
+
+background: #000000;
+}
+.copy-right-text{
+    position: absolute;
+height: 21px;
+left: 799px;
+top: 24px;
+
+font-family: Be Vietnam;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+text-align: center;
+
+color: #FFFFFF;
+
+opacity: 0.7;
 }
